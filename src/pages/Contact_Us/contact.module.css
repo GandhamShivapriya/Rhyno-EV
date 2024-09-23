@@ -1,0 +1,72 @@
+
+
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient( #131313,#bdb652);
+    
+}
+.map{
+    position:relative;
+    top:10rem;
+    left:50rem;
+}
+.location{
+    position:absolute;
+    top:5rem;
+    left:4rem;
+    color: rgb(64, 134, 195);
+}
+.contact_info{
+    position: absolute;
+    left:5rem
+}
+.contacthead{
+    color: rgb(7, 44, 76);
+}
+@media(max-width:1240px){
+    .map{
+        position:relative;
+        top:8rem;
+        left:10rem;
+        width:30rem;
+        height: 20rem;
+    }
+    .contact_info{
+        position: absolute;
+        left:5rem;
+        top:28rem;
+        /* width:30rem; */
+    }
+}
+@media(max-width:641px){
+    .map{
+        position:relative;
+        top:8rem;
+        left:2rem;
+        width:30rem;
+        height: 20rem;
+    }
+    .contact_info{
+        position: absolute;
+        left:1rem;
+        top:28rem;
+        /* width:30rem; */
+    }
+}
+@media(max-width:515px){
+    .map{
+        position:relative;
+        top:8rem;
+        left:1rem;
+        width:20rem;
+        height: 15rem;
+    }
+    .contact_info{
+        position: absolute;
+        left:0.3rem;
+        top:28rem;
+        /* width:30rem; */
+    }
+}

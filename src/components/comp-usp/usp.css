@@ -1,0 +1,45 @@
+.move{
+    height: 50rem;
+    width: 65rem;
+    margin: auto;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    margin-top:10rem;
+}
+
+@media(max-width:1054px){
+    .move{
+        height: 35rem;
+        width: 45rem;
+    }
+}
+@media(max-width:736px){
+    .move{
+        height: 28rem;
+        width: 38rem;
+    }
+}
+
+@media(max-width:660px){
+    .move{
+        height: 24rem;
+        width: 32rem;
+    }
+}
+@media(max-width:563px){
+    .move{
+        height: 20rem;
+        width: 25rem;
+    }
+}
+
+@media(max-width:430px){
+    .move{
+        height: 17rem;
+        width: 20rem;
+    }
+}

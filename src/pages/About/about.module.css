@@ -1,0 +1,211 @@
+.img_bgm{
+   background:linear-gradient(rgba(29, 28, 34, 0.9),rgba(29, 28, 36, 0.4)), url('../../assets/wide_tyres.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: aliceblue;
+   min-height: 100vh;
+   width: 100%;
+   position: relative;
+}
+.h2{
+  position: relative;
+  top:44rem;
+  text-align: center;
+  /* text-shadow:#F9ED32; */
+  /* left:25rem; */
+  right: 0rem;
+  color:#2C2A2A
+}
+.card1{
+    position: absolute;
+    left:5rem;
+    margin:3rem;
+    background: linear-gradient( #131313,#3C3C3C) ;
+    color:#F2F2F2;
+    height:18rem;
+    width: 30rem;
+}
+.card2{
+    position: absolute;
+    right: 5rem;
+    top:65rem;
+    right: 5rem;
+    /* margin:3rem 0rem 3rem 0rem; */
+    background: linear-gradient( #131313,#3C3C3C) ;
+    color:#F2F2F2;
+    height:36rem;
+    width:40rem;
+    /* padding: 1rem; */
+}
+.footy{
+    position: absolute;
+    top:100rem;
+    height: 30rem;
+    bottom: 0rem;
+    margin-top:3rem;
+    width:100%;
+    background: linear-gradient(rgba(29, 28, 34, 0.7),rgba(29, 28, 36, 0.7));
+    margin-top:4rem ;
+    padding: 0rem 1rem 4rem 1rem;
+}
+.sett{
+    display: grid;
+    height: 30rem;
+    color: white;
+    grid-auto-flow: column;
+}
+.info{
+    display:inline-block;
+    margin:0rem 4rem 5rem 3rem;
+}
+@media(max-width:1280px) {
+    .card1{
+        position: absolute;
+        top:45rem;
+        left:5rem;
+        margin:3rem;
+        background: linear-gradient( #131313,#3C3C3C) ;
+        color:#F2F2F2;
+        height:20rem;
+        margin: auto;
+        /* width: 15rem; */
+    }
+    .card2{
+        position: absolute;
+        left:30rem;
+        top:69rem;
+        margin-bottom:3rem;
+        background: linear-gradient( #131313,#3C3C3C) ;
+        color:#F2F2F2;
+        height:30rem;
+        padding-bottom: 1rem;
+        width:40rem;
+        margin:auto;
+    }
+     /* .img2{
+         height: 20rem;
+         width: 38rem;
+    }  */
+}
+@media(max-width:1138px) {
+    .img2{
+        background-size: cover;
+    }
+    .card2{
+        position: absolute;
+        left:30rem;
+        top:69rem;
+        margin-bottom:3rem;
+        background: linear-gradient( #131313,#3C3C3C) ;
+        color:#F2F2F2;
+        height:30rem;
+        padding-bottom: 1rem;
+        width:30rem
+    }
+    .img_bgm{
+        background:linear-gradient(rgba(29, 28, 34, 0.9),rgba(29, 28, 36, 0.4)), url('../../assets/final.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media(max-width:977px){
+    .card2{
+        position: absolute;
+        left:14rem;
+        top:69rem;
+        margin: auto;
+    }
+    .card1{
+        position: absolute;
+        top:47rem;
+       left:11rem;
+       margin: auto;
+    }}
+    @media(max-width:797px){
+        .footy{
+            position: absolute;
+            top:100rem;
+            height: 55rem;
+            bottom: 0rem;
+            margin-top:3rem;
+            padding: 0;
+            color: #F2F2F2;
+        }
+        .sett{
+            height: 50rem;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(3,1fr);
+            grid-auto-flow: column;
+            color: #F2F2F2;
+        }
+    }
+@media(max-width:763px){
+    .card2{
+        position: absolute;
+        left:8rem;
+        
+        /* margin:auto */
+    }
+    .card1{
+        position: absolute;
+       left:7rem;
+    }
+    .card_img1{
+        height: 5rem;
+        width: 9rem;
+    }
+ }
+
+ @media(max-width:624px){
+    .card2{
+        position: absolute;
+        left:4rem;
+
+        
+        /* margin:auto */
+    }
+    .card1{
+        position: absolute;
+       left:4rem;
+       top:50rem;
+    }
+    .h2{
+        margin-top: 2rem ;
+        margin-bottom: 4rem;
+        
+        font-size: x-large;
+    }
+
+}
+@media(max-width:574px){
+    .card2{
+       position: absolute;
+        left:4rem;
+        height:30rem;    
+        width:23rem;
+        top:72rem;
+    }
+    .card1{
+        position: absolute;
+        top:50rem;
+        left:4rem;
+        height:19rem;  
+        width: 23rem;
+    }
+}
+@media(max-width:485px){
+    .card2{
+        position: absolute;
+         left:1rem;
+         width: 20rem;
+         
+     }
+     .card1{
+         position: absolute;
+         left:1rem;
+         width: 20rem;
+     }
+}

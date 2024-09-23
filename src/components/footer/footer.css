@@ -1,0 +1,114 @@
+.foot{
+    height:65rem;
+    width:100%;
+    background: linear-gradient(rgba(29, 28, 34, 0.7),rgba(29, 28, 36, 0.7));
+   
+    /* justify-content:center; */
+    /* align-items: space-evenly; */
+    margin-top:4rem ;
+    padding: 0rem 1rem 4rem 1rem;
+}
+.set{
+    display: grid;
+    height: 60rem;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-auto-flow: column;
+}
+
+.content{
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+}
+.note{
+    width: 14rem;
+    height: 14rem;
+}
+.icons2{
+    font-size:xx-large;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.know_icon:hover{
+    background-color: white;
+    color:#252525;
+    border-radius: 20%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+/* color inherit means inherit color from parent element */
+@media(max-width:912px){
+    .content{
+        display: inline-block;
+        padding: 0.4rem;
+        margin: 0.4rem;
+        color: white;
+    }
+    .set{
+        display: grid;
+        height: 68rem;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-auto-flow: column;
+    }.foot{
+        height:74rem;
+        width:100%;
+        background: linear-gradient(rgba(29, 28, 34, 0.7),rgba(29, 28, 36, 0.7));
+       
+        /* justify-content:center; */
+        /* align-items: space-evenly; */
+        margin-top:4rem ;
+        padding: 0rem 1rem 4rem 1rem;
+    }
+
+
+}
+@media(max-width:563px){
+    .foot{
+        
+        background: linear-gradient(rgba(29, 28, 34, 0.7),rgba(29, 28, 36, 0.7));
+        padding: 0;
+    }}
+
+    .set{
+        padding: 0;
+    }
+
+    @media(max-width:512px){
+        .foot{
+            font-size: medium;
+            height:120rem;
+            background: linear-gradient(rgba(29, 28, 34, 0.7),rgba(29, 28, 36, 0.7));
+            padding: 0;
+        }
+      
+        p{
+            font-size: medium;
+        }
+        
+        h2{
+            font-size: large;
+        }
+    
+        .set{
+            display: grid;
+            height: 115rem;
+            width:100%;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(6,1fr);
+            grid-auto-flow: column;
+        }
+
+        .content{
+            width: 4rem;
+            text-align: center;
+            padding-left: 4rem;
+        }
+    }

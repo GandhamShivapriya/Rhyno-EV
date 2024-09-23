@@ -1,0 +1,154 @@
+.effect {
+  background: linear-gradient(rgba(29, 28, 34, 0.7), rgba(29, 28, 36, 0.7));
+  width: 100%;
+  height: 70%;
+  position: relative;
+}
+.pre_head {
+  color: white;
+  background: linear-gradient(#131313, #bdb652);
+  margin-top: 1rem;
+  text-align: center;
+}
+input {
+  height: 2rem;
+  flex-grow: 2;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+/* button{
+      height: 2.2rem;
+      font-size: 1.2rem;
+      border-radius: 5px;
+  } */
+.login {
+  height: 33rem;
+  width: 25rem;
+  position: absolute;
+  top: 58rem;
+  /* right:20rem; */
+  right: 1.9rem;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  justify-content: space-around;
+  background: linear-gradient(#131313, #bdb652);
+  opacity: 0.5;
+  box-shadow: 0px 0px 10px 10px black;
+}
+.inp {
+  padding: 0rem;
+  margin: 1.2rem;
+  color: #f9ed32;
+  /* height: rem; */
+  font-size: 1.2rem;
+  flex-grow: 2;
+}
+
+.icons3 {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+.pre {
+  background-color: #3c3c3c;
+  color: wheat;
+  font-size: medium;
+  position: absolute;
+  top: 60rem;
+  left: 15rem;
+  height: 15rem;
+  width: 29rem;
+}
+@media (max-width: 1177px) {
+  .pre {
+    position: absolute;
+    top: 39rem;
+    left: 20rem;
+    height: 15rem;
+  }
+  .login {
+    height: 33rem;
+    width: 25rem;
+    position: absolute;
+    top: 65rem;
+    right: 20rem;
+  }
+}
+@media (max-width: 843px) {
+  .pre {
+    position: absolute;
+    top: 39rem;
+    left: 9rem;
+    height: 15rem;
+  }
+  .login {
+    height: 33rem;
+    width: 25rem;
+    position: absolute;
+    top: 65rem;
+    right: 9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo1 {
+    height: 5rem;
+    width: 9rem;
+  }
+}
+
+@media (max-width: 624px) {
+  .pre {
+    position: absolute;
+    top: 30rem;
+    left: 3rem;
+    height: 15rem;
+  }
+  .login {
+    height: 33rem;
+    width: 25rem;
+    position: absolute;
+    top: 48rem;
+    right: 3rem;
+  }
+}
+
+@media (max-width: 542px) {
+  .pre {
+    position: absolute;
+    top: 30rem;
+    left: 6rem;
+    height: 15rem;
+    width: 20rem;
+  }
+  .login {
+    height: 33rem;
+    width: 25rem;
+    position: absolute;
+    top: 48rem;
+    right: 7rem;
+    width: 20rem;
+  }
+}
+@media (max-width: 471px) {
+  .pre {
+    position: absolute;
+    top: 27rem;
+    left: 2rem;
+    height: 15rem;
+    width: 20rem;
+  }
+  .login {
+        height: 33rem;
+        width: 25rem;
+        position: absolute;
+        top: 48rem;
+        right: 2rem;
+        width: 20rem
+  }
+}

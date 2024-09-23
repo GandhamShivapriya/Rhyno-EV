@@ -1,0 +1,108 @@
+.navbar{
+    width: 100%;
+    background-color:transparent ;
+    height:10%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    top:0px;
+    left:0px;
+    padding:0 4% 0 4% ;
+    transition: background-color 0.3s;  
+}
+/*transition property causes background color to change after 0.3s */
+.navbar.scrolled{
+    background-color: #333;
+    color: white;
+}
+.menu{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* z index property in css is used when position is used to show which one to overlap over which part high z index means it will over-lap 1st */
+.logo{
+     padding: 0;
+     position: relative;
+     right:15%;
+     top:2%;
+     width: 13rem;
+     height: 5rem;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 1.2rem 0 1.2rem;
+    text-align: center;
+}
+.menu:hover{
+    background-color:#EDEDED ;
+    color: #414141;
+    border-radius: 10%;
+    width:8rem;
+    padding: 1rem 0 1rem 0;
+    cursor:pointer;
+}
+.icons{
+   font-size: x-large;
+}
+.icons:hover{
+    border:2px solid black;
+    border-radius: 10%;
+    background-color:#EDEDED ;
+    color: #414141;
+}
+
+.menu_icon{
+ display: none;
+}
+@media(max-width:1237px){
+    .logo{
+        position: relative;
+        right:6%
+    }
+}
+@media(max-width:1088px){
+    nav ul{
+        position: fixed;
+        top: 0;
+        right:0;
+        bottom: 0;
+        background: #333;
+        z-index: -1;
+        width:13rem;
+        padding-top: 4rem;
+        transition: 0.5s;
+        height: 45rem;
+    }
+    nav ul li{
+        display: block;
+        margin: 1rem;
+    }
+   .logo{
+    position: relative;
+    left:-40%;
+    }
+    .menu_icon{
+        display: block;
+        width: 2rem;
+        position: fixed;
+        right:2rem;
+        cursor: pointer;
+    }
+    .hide_mobile_menu{
+        right:-13rem;
+    }
+}
+
+@media(max-width:680px){
+    .logo{
+        position: relative;
+        left:-30%;
+        }
+}
